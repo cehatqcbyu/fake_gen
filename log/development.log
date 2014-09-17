@@ -1,0 +1,70 @@
+[Wed Sep 17 07:57:11 2014] [info] Listening at "http://*:3000".
+[Wed Sep 17 07:57:32 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 17 07:57:32 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36).
+[Wed Sep 17 07:57:32 2014] [debug] Routing to controller "FakeGen::Example" and action "welcome".
+[Wed Sep 17 07:57:32 2014] [debug] Rendering template "example/welcome.html.ep".
+[Wed Sep 17 07:57:32 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Sep 17 07:57:32 2014] [debug] 200 OK (0.011188s, 89.381/s).
+[Wed Sep 17 08:10:47 2014] [info] Listening at "http://*:3000".
+[Wed Sep 17 08:10:51 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 17 08:10:51 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36).
+[Wed Sep 17 08:10:51 2014] [debug] Routing to controller "FakeGen::Example" and action "welcome".
+[Wed Sep 17 08:10:51 2014] [debug] Rendering template "example/welcome.html.ep".
+[Wed Sep 17 08:10:51 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Sep 17 08:10:51 2014] [debug] 200 OK (0.007199s, 138.908/s).
+[Wed Sep 17 08:31:17 2014] [info] Listening at "http://*:3000".
+[Wed Sep 17 08:31:23 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36).
+[Wed Sep 17 08:31:23 2014] [debug] Routing to controller "FakeGen::Main" and action "show".
+[Wed Sep 17 08:31:23 2014] [debug] Rendering template "main/show.html.ep".
+[Wed Sep 17 08:31:23 2014] [error] Bareword "message" not allowed while "strict subs" in use at template "main/show.html.ep" line 4.
+1: % layout 'default';
+2: % title 'Fake accounts generator';
+3: 
+4: <p>Random number: <i><%= message %></i></p>
+
+[Wed Sep 17 08:31:23 2014] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 17 08:31:23 2014] [debug] Template "exception.html.ep" not found.
+[Wed Sep 17 08:31:23 2014] [debug] Rendering inline template.
+[Wed Sep 17 08:31:23 2014] [debug] Rendering inline template.
+[Wed Sep 17 08:31:23 2014] [debug] 500 Internal Server Error (0.027486s, 36.382/s).
+[Wed Sep 17 08:31:42 2014] [info] Listening at "http://*:3000".
+[Wed Sep 17 08:31:44 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36).
+[Wed Sep 17 08:31:44 2014] [debug] Routing to controller "FakeGen::Main" and action "show".
+[Wed Sep 17 08:31:44 2014] [debug] Rendering template "main/show.html.ep".
+[Wed Sep 17 08:31:44 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Sep 17 08:31:44 2014] [debug] 200 OK (0.007048s, 141.884/s).
+[Wed Sep 17 08:31:46 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36).
+[Wed Sep 17 08:31:46 2014] [debug] Routing to controller "FakeGen::Main" and action "show".
+[Wed Sep 17 08:31:46 2014] [debug] Rendering cached template "main/show.html.ep".
+[Wed Sep 17 08:31:46 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Wed Sep 17 08:31:46 2014] [debug] 200 OK (0.000804s, 1243.781/s).
+[Wed Sep 17 08:31:48 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36).
+[Wed Sep 17 08:31:48 2014] [debug] Routing to controller "FakeGen::Main" and action "show".
+[Wed Sep 17 08:31:48 2014] [debug] Rendering cached template "main/show.html.ep".
+[Wed Sep 17 08:31:48 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Wed Sep 17 08:31:48 2014] [debug] 200 OK (0.000931s, 1074.114/s).
+[Wed Sep 17 08:31:50 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36).
+[Wed Sep 17 08:31:50 2014] [debug] Routing to controller "FakeGen::Main" and action "show".
+[Wed Sep 17 08:31:50 2014] [debug] Rendering cached template "main/show.html.ep".
+[Wed Sep 17 08:31:50 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Wed Sep 17 08:31:50 2014] [debug] 200 OK (0.000772s, 1295.337/s).
+[Wed Sep 17 08:31:51 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36).
+[Wed Sep 17 08:31:51 2014] [debug] Routing to controller "FakeGen::Main" and action "show".
+[Wed Sep 17 08:31:51 2014] [debug] Rendering cached template "main/show.html.ep".
+[Wed Sep 17 08:31:51 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Wed Sep 17 08:31:51 2014] [debug] 200 OK (0.001090s, 917.431/s).
+[Wed Sep 17 08:31:52 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36).
+[Wed Sep 17 08:31:52 2014] [debug] Routing to controller "FakeGen::Main" and action "show".
+[Wed Sep 17 08:31:52 2014] [debug] Rendering cached template "main/show.html.ep".
+[Wed Sep 17 08:31:52 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Wed Sep 17 08:31:52 2014] [debug] 200 OK (0.001274s, 784.929/s).
+[Wed Sep 17 08:31:52 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36).
+[Wed Sep 17 08:31:52 2014] [debug] Routing to controller "FakeGen::Main" and action "show".
+[Wed Sep 17 08:31:52 2014] [debug] Rendering cached template "main/show.html.ep".
+[Wed Sep 17 08:31:52 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Wed Sep 17 08:31:52 2014] [debug] 200 OK (0.001438s, 695.410/s).
+[Wed Sep 17 08:31:53 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.103 Safari/537.36).
+[Wed Sep 17 08:31:53 2014] [debug] Routing to controller "FakeGen::Main" and action "show".
+[Wed Sep 17 08:31:53 2014] [debug] Rendering cached template "main/show.html.ep".
+[Wed Sep 17 08:31:53 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Wed Sep 17 08:31:53 2014] [debug] 200 OK (0.000742s, 1347.709/s).

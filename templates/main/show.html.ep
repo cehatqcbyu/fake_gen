@@ -1,0 +1,4 @@
+% layout 'default';
+% title 'Fake accounts generator';
+
+<p>Random number: <i><%= $message %></i></p>
