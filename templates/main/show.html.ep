@@ -2,3 +2,4 @@
 % title 'Fake accounts generator';
 
 <p>Random number: <i><%= $message %></i></p>
+<a href="index.html">To static page</a>
