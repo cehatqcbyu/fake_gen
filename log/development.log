@@ -84,3 +84,34 @@
 [Wed Sep 17 08:36:48 2014] [debug] Rendering cached template "main/show.html.ep".
 [Wed Sep 17 08:36:48 2014] [debug] Rendering cached template "layouts/default.html.ep".
 [Wed Sep 17 08:36:48 2014] [debug] 200 OK (0.001376s, 726.744/s).
+[Fri Sep 19 08:43:50 2014] [info] Listening at "http://*:3000".
+[Fri Sep 19 08:44:09 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36).
+[Fri Sep 19 08:44:09 2014] [debug] Routing to controller "FakeGen::Main" and action "show".
+[Fri Sep 19 08:44:10 2014] [debug] Rendering template "main/show.html.ep".
+[Fri Sep 19 08:44:10 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Sep 19 08:44:10 2014] [debug] 200 OK (0.039667s, 25.210/s).
+[Fri Sep 19 08:44:13 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36).
+[Fri Sep 19 08:44:13 2014] [debug] Routing to controller "FakeGen::Main" and action "show".
+[Fri Sep 19 08:44:13 2014] [debug] Rendering cached template "main/show.html.ep".
+[Fri Sep 19 08:44:13 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Sep 19 08:44:13 2014] [debug] 200 OK (0.001078s, 927.644/s).
+[Fri Sep 19 08:44:13 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36).
+[Fri Sep 19 08:44:13 2014] [debug] Routing to controller "FakeGen::Main" and action "show".
+[Fri Sep 19 08:44:13 2014] [debug] Rendering cached template "main/show.html.ep".
+[Fri Sep 19 08:44:13 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Sep 19 08:44:13 2014] [debug] 200 OK (0.000951s, 1051.525/s).
+[Fri Sep 19 08:44:16 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36).
+[Fri Sep 19 08:44:16 2014] [debug] Routing to controller "FakeGen::Main" and action "show".
+[Fri Sep 19 08:44:16 2014] [debug] Rendering cached template "main/show.html.ep".
+[Fri Sep 19 08:44:16 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Sep 19 08:44:16 2014] [debug] 200 OK (0.000737s, 1356.852/s).
+[Fri Sep 19 08:44:17 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36).
+[Fri Sep 19 08:44:17 2014] [debug] Routing to controller "FakeGen::Main" and action "show".
+[Fri Sep 19 08:44:17 2014] [debug] Rendering cached template "main/show.html.ep".
+[Fri Sep 19 08:44:17 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Sep 19 08:44:17 2014] [debug] 200 OK (0.001286s, 777.605/s).
+[Fri Sep 19 08:44:17 2014] [debug] GET / (Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36).
+[Fri Sep 19 08:44:17 2014] [debug] Routing to controller "FakeGen::Main" and action "show".
+[Fri Sep 19 08:44:17 2014] [debug] Rendering cached template "main/show.html.ep".
+[Fri Sep 19 08:44:17 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Sep 19 08:44:17 2014] [debug] 200 OK (0.000988s, 1012.146/s).
