@@ -56,20 +56,22 @@ sub generate {
     my $name;
     my $surname;
     my $second_name;
-    my $country
+    my $country;
     my $city;
 
     # connect to database
     my $dbh = DBI->connect("dbi:mysql:$database", $user, $password) || die "Cannot connect to database: $DBI::errstr\n";
+    $dbh->do('SET NAMES utf8');
+    $dbh->{'mysql_enable_utf8'} = 1;
 
     ### select random name ###
     $name = &get_rand_item($dbh, 'name', $nation, $sex);
 
     ### select random surname ###
-    $surname = &get_rand_item($dbh, 'name', $nation, $sex);
+    $surname = &get_rand_item($dbh, 'surname', $nation, $sex);
 
     ### select random second_name ###
-    $second_name = &get_rand_item($dbh, 'name', $nation, $sex);
+    $second_name = &get_rand_item($dbh, 'second_name', $nation, $sex);
 
     ### select random city ###
     $city = &get_rand_item($dbh, 'city', $nation);
@@ -84,13 +86,15 @@ sub get_rand_item {
     my $nation = shift || '';
     my $sex = shift || '';
 
+    my $querry;
     my @list;
     # database querry
     if ($type eq 'city') {
-        my $querry; = "SELECT `$type` FROM `{$type}s` WHERE `nation` = '$nation';";
+        my $type2 = 'citie';
+        $querry = "SELECT `$type` FROM `${type2}s` WHERE `nation` = '$nation';";
     }
     else {
-        my $querry; = "SELECT `$type` FROM `{$type}s` WHERE `nation` = '$nation' AND `sex` = '$sex';";
+        $querry = "SELECT `$type` FROM `${type}s` WHERE `nation` = '$nation' AND `sex` = '$sex';";
     }
     my $sth = $dbh->prepare($querry);
     $sth->execute || die "Cannot execute SQL querry: $DBI::errstr\n";

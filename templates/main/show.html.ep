@@ -1,5 +1,9 @@
 % layout 'default';
 % title 'Fake accounts generator';
 
-<p>Random number: <i><%= $message %></i></p>
-<a href="index.html">To static page</a>
+<p><b>Фамилия: </b><%= $surname %></p>
+<p><b>Имя: </b><%= $name %></p>
+<p><b>Отчество: </b><%= $second_name %></p>
+<p><b>Пол: </b><%= $gender %></p>
+<p><b>Страна: </b><%= $country %></p>
+<p><b>Город: </b><%= $city %></p>
