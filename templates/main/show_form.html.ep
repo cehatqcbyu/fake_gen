@@ -2,11 +2,11 @@
 % title 'Fake accounts generator';
 
 <form action="<%=url_for('/')%>" method="post">
-    Страна: <br><select name="country_choise">
+    Страна: <select name="country_choise">
                     <option value="russian">Россия</option>
                  </select>
     <br>
-    Пол: <br><select name="gender_choise">
+    Пол: <select name="gender_choise">
                     <option value="male">Мужской</option>
                     <option value="female">Женский</option>
              </select>

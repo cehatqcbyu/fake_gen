@@ -27,7 +27,7 @@ sub show {
   }
 
   # generate random account based on nation and sex
-  my ($name, $surname, $second_name, $city) = $self->engine->generate($nation, $sex);
+  my ($name, $surname, $second_name, $city, $password) = $self->engine->generate($nation, $sex);
 
   # render page
   $self->render (
@@ -36,7 +36,8 @@ sub show {
                 second_name => $second_name,
                 gender      => $gender,
                 country     => $country,
-                city        => $city
+                city        => $city,
+                password    => $password
   );
 }
 

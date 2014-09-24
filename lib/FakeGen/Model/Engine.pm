@@ -76,7 +76,10 @@ sub generate {
     ### select random city ###
     $city = &get_rand_item($dbh, 'city', $nation);
 
-    return $name, $surname, $second_name, $city;
+    ### generate password ###
+    $password = &generate_password();
+
+    return $name, $surname, $second_name, $city, $password;
 }
 
 # return random name, surname or second_name from database
@@ -104,7 +107,29 @@ sub get_rand_item {
     }
     # return random item from the list
     return $list[int rand($#list+1)];
+}
 
+# generate random password like 'jhjsYYt67D'
+sub generate_password {
+    my @letters_small = ('a' .. 'z');
+    my @letters_big = ('A' .. 'Z');
+    my @numbers = (0 .. 9);
+
+    my $password = '';
+
+    # 10 symbols for password
+    for (0 .. 10) {
+        my $symbol; # one symbol to add to password
+        my $type_of_symbol = int(rand(3));
+        given ($type_of_symbol) {
+            when (0) { $symbol = $letters_small[int rand($#letters_small+1)]; }
+            when (1) { $symbol = $letters_big[int rand($#letters_big+1)]; }
+            when (2) { $symbol = $numbers[int rand($#numbers+1)]; }
+        }
+        $password .= $symbol;
+    }
+
+    return $password;
 }
 
 1;
