@@ -15,7 +15,8 @@ sub startup {
   my $r = $self->routes;
 
   # /
-  $r->get('/')->to('main#show');
+  $r->get('/')->to('main#show_form');
+  $r->post('/')->to('main#show');
 }
 
 1;

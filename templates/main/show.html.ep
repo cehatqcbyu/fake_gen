@@ -1,5 +1,17 @@
 % layout 'default';
 % title 'Fake accounts generator';
+<form action="<%=url_for('/')%>" method="post">
+    Страна: <br><select name="country_choise">
+                    <option value="russian">Россия</option>
+                </select>
+    <br>
+    Пол: <br><select name="gender_choise">
+                <option value="male">Мужской</option>
+                <option value="female">Женский</option>
+             </select>
+    <br>
+    <input type="submit" value="Сгенерировать">
+</form>
 
 <p><b>Фамилия: </b><%= $surname %></p>
 <p><b>Имя: </b><%= $name %></p>

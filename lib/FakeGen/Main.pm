@@ -2,13 +2,13 @@ package FakeGen::Main;
 use Mojo::Base 'Mojolicious::Controller';
 use utf8;
 
-# render main page
+# render main page (post to /)
 sub show {
   my $self = shift;
 
   #get initial parameters
-  my $nation = 'russian';
-  my $sex = 'male';
+  my $nation = $self->param('country_choise') || '';
+  my $sex = $self->param('gender_choise') || '';
   my $country;
   my $gender;
 
@@ -38,6 +38,13 @@ sub show {
                 country     => $country,
                 city        => $city
   );
+}
+
+# just show form (get to /)
+sub show_form {
+    my $self = shift;
+
+    $self->render;
 }
 
 1;
